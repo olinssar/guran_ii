@@ -16,7 +16,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5422153027").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 BOT_ID = getenv("BOT_ID")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/olinssar/livebot3",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/olinssar/guran_ii",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TH3NK")
@@ -55,7 +55,7 @@ userstats = {}
 clean = {}
 autoclean = []
 START_IMG_URL = getenv(
-"START_IMG_URL","https://kindidev.com/live/photo_%D8%A7%D8%B5%D9%81%D8%B1.jpg"
+"START_IMG_URL","https://j.top4top.io/p_3066v0ymd0.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
